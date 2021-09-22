@@ -1,0 +1,41 @@
+.wrapper {
+  width: 500px;
+  margin-top: 50px;
+  border: 1px solid #000;
+  padding: 10px;
+  background: rgb(152, 174, 247);
+}
+
+.board {
+  width: 99px;
+  height: 99px;
+}
+
+.square {
+  width: 33px;
+  height: 33px;
+  background: #fff;
+  border: 1px solid #000;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.square:hover {
+  background: rgb(226, 223, 223);
+  transition: .3 all ease;
+}
+
+.start {
+  margin: 5px;
+  outline: none;
+  background: rgb(152, 174, 247);
+  border: 1px solid white;
+}
+
+.start:hover {
+  cursor: pointer;
+  color: #000;
+  background: white;
+  border: 1px solid #000;
+}
