@@ -1,12 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Game from './components/classGame/ClassGame';
-import HookedGame from './components/hookGame/HookedGame';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Game />
-    <HookedGame />
+    <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root"),
 );
